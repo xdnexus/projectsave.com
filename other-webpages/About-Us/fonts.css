@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+    background-color: #fff  ;
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+.pheader {
+    background-size: cover;
+    background-color: rgba(80,0,80,1    );
+    max-width: 100%;        
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    position: sticky;
+}
+#pheader-logo {    
+    max-width: 12vw;
+    max-height: 300px;
+    cursor: pointer;
+    padding-left: 15%;
+    margin-left: -14vw;    
+}
+
+.pheader-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phnav-ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px; 
+
+
+
+    a {
+        font-size: 30px;
+        color: #ffffff;
+        text-decoration: none;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+
+    a:hover{
+        color: green;
+    }
+    
+    a .donationbutton {
+        font-size: 30px;
+        background-color: #4CAF50; 
+        color: white; 
+        padding: 17px 25px; 
+        text-decoration: none; 
+        display: inline-block; 
+        border: none; 
+        border-radius: 45px; 
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    a .donationbutton:hover {
+        position: relative;
+        background-color: #fff;
+        color: #4CAF50;
+    }
+}
+
+
+.ptitle {
+    position: relative;
+    width: 100%; 
+    height: 300px; 
+    overflow: scroll, hidden;
+    justify-content: center;
+    align-items: center;
+}
+.ptitle-bgimage {
+    width: 100%; 
+    height: 150%; 
+    object-fit: cover; 
+    object-position: center; 
+    filter: blur(4px);    
+}
+.ptitle-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    background: linear-gradient(rgba(80,0,80,0.7), rgba(80,0,80,0.7));
+    background-size: cover;
+}
+.ptitle-intext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    font-size: 55px; 
+    font-weight: bold; 
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 4%;
+    align-items: center;
+}
+.ptitle-intext h3 {
+    font-weight: clear;
+}
+
+
+.pbody {
+    margin-top: 3%;
+    text-align: justify center;
+    align-items: center;
+}
+
+.pbody div {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.pbody img {
+    max-width: 5000px;
+    max-height: 600px;
+    
+}
+
+
+
+.container{
+	max-width: 1170px;
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+footer div div div ul{
+	list-style: none;
+}
+.footer {
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   margin-right: 0px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a, .footer-col ul li p {
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a img {
+	max-width: 30%;
+	
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 7px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 15px 10px 0;
+    padding: 8px 3px 0 5px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+    padding-left: 5px;
+}
+
+/*responsive*/
+
+
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
