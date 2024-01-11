@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title> Project S.A.F.E.</title>
+    <title> Project S.A.V.E.</title>
     <meta charset="UTF-8">
     <meta name="xdnexus" content="Almendras">
     <meta name="viewport" 
@@ -15,7 +15,9 @@
     
     
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/design.css">
+    <link rel="stylesheet" href="styles/designs/header.css">
+    <link rel="stylesheet" href="styles/designs/footer.css">
+    <link rel="stylesheet" href="styles/designs/main.css">
    
 
 
@@ -36,13 +38,10 @@
             
         </div> 
         
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
+       
 
         <nav class="header container">
-            <label for="header__navbar"></label>
+           
             <ul class="phnav-ul">
                 <li class="phnav-ul-li">
                     <a href="../About-Us/index.html">About Us</a></li>
@@ -52,36 +51,100 @@
                     <a href="../Volunteers/index.html">Volunteers</a></li>
                 <li class="phnav-ul-li">
                     <a href="../Contact-Us/index.html">Contact us</a></li>
-                <li class="phnav-ul-li">
-                    <a href="../Donate-Now/index.html">
-                        <button class="donationbutton">
-                            Donate Now!
-                        </button>
-                    </a>
-                </li>
             </ul>
-
-
-
-
+            <button class="header-bars">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
         </nav>
 
-
-
-
-
-
-
-    </header>
+       
+        <a href="../Donate-Now/index.html">
+            <button class="donationbutton">
+                Donate Now!
+            </button>
+        </a>
         
+      
     </header>
 
+    <main>  
+        <body>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nisi, officia dolores animi unde non corporis ex quod maiores a, facere, beatae quo quas! Harum quo maiores reprehenderit perferendis nobis?
+        </body>
 
 
 
 
 
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <ul>
+                        <li>
+                        <a href="#">
+                             <img class="pfooter-logo" src="images/logo.svg" alt="pfooter-logo"> 
+                        </a></li>
 
-    
+                        <li>
+                            <p>Be the hope of these children in poverty. Donate today and help the 
+                         street children have the education and life they deserve.
+                        </p></li>
+                        <li>
+                         <h4>follow us</h4>
+                         <div class="social-links">
+                             <a href="#"><i class="fab fa-facebook-f"></i></a>
+                             <a href="#"><i class="fab fa-twitter"></i></a>
+                             <a href="#"><i class="fab fa-instagram"></i></a>
+                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                         </div>
+                        </li>
+                         
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#">Who We Are</a></li>
+                        <li><a href="#">Organizations</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li>
+                         <p>
+                             ©2023 All Rights Reserved.
+                         </p>
+                     </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <li>
+                         <strong>
+                             <p> Subscribe to our Mailing List!</p>
+                         </strong>
+                     </li>
+                        <li>
+                         <p>We'd love to have you on our next outreach! By joining our mailing list, 
+                         we'll let you know what, when, and where our next project will be. Are you in?</p>
+                     </li>
+                        <li>
+                         <input type="email" class="inputemail" name="userEmail" required>
+                     </li>
+                     <li>
+                         <button class="confirmbutton">
+                             Confirm
+                         </button>
+                     </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    
+                </div>
+            </div>
+        </div>
+   </footer>
+
 </body>
 </html>
