@@ -1,0 +1,72 @@
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-slate800);
+    height: max-content;
+    font-size: 1em;
+    position: sticky;
+    top: 0px;
+
+        
+       
+        div {
+            display: flex;
+        }
+        div a img {
+            max-width: 10rem;
+            max-height: 10em;
+            cursor: pointer;
+            position: relative;
+            top: 1em;
+            left: 0px;  
+        }
+        nav ul {
+            align-items: center;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 2em;
+            letter-spacing: 0.01em;
+            color: white;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: wheat;
+        }
+        nav button {
+            display: none;
+        }
+
+        a button.donationbutton {
+            margin-left: 2rem;
+            background-image: linear-gradient(to top right, var(--clr-l600), var(--clr-g800));
+            width: 8rem;
+            height: 3rem;
+            border-radius: 4rem;
+            
+        }
+
+}
+
+@media (max-width: 1012px) {
+
+    header nav ul li {
+      display: none;
+    }
+
+    header nav button{
+        display: block;
+        color: var(--clr-light);
+        width: 3rem;
+        height: 3rem;
+        background: none;
+        border: none;
+    }
+
+}
+
+
