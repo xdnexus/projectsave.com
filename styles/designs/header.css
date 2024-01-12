@@ -10,7 +10,7 @@ header {
     backdrop-filter: blur(0.5rem);
     height: max-content;
     font-size: 1em;
-    position: sticky;
+    position: fixed;
     top: 0px;
 
         
