@@ -1,11 +1,13 @@
 
 
 header {
+    z-index: 1;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--clr-slate800);
+    background-color: none;
+    backdrop-filter: blur(0.5rem);
     height: max-content;
     font-size: 1em;
     position: sticky;

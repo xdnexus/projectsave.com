@@ -64,6 +64,7 @@ footer div div div ul{
 
 .footer-col ul li a:hover{
 	color: #ffffff;
+	padding-left: 7px;
 }
 .footer-col .social-links a{
 	display: inline-block;
@@ -81,6 +82,7 @@ footer div div div ul{
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
+    padding-left: 5px;
 }
 
 
